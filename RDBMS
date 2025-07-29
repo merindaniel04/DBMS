@@ -34,7 +34,7 @@ SELECT LTRIM('   Trim me') AS trimmed_leading FROM DUAL;
 
 SELECT RTRIM('I love India                ') AS trimmed_trailing FROM DUAL;
 
-SELECT RPAD('John', 15, 'X') AS right_padded_name FROM DUAL;
+SELECT RPAD('Merin', 15, 'X') AS right_padded_name FROM DUAL;
 
 SELECT RPAD(TO_CHAR(123), 6, '0') AS right_padded_number FROM DUAL;
 
