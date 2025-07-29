@@ -1,0 +1,55 @@
+SELECT CEIL(8.29) AS ceil_value FROM DUAL;
+
+SELECT CEIL(-3.9) AS ceil_negative FROM DUAL;
+
+SELECT CEIL(17/3) AS ceil_division FROM DUAL;
+
+SELECT FLOOR(9.76) AS floor_value FROM DUAL;
+
+SELECT FLOOR(-5.3) AS floor_negative FROM DUAL;
+
+SELECT FLOOR(15/4) AS floor_division FROM DUAL;
+
+SELECT SQRT(625) AS sqrt_value FROM DUAL;
+
+SELECT SQRT(2) AS sqrt_two FROM DUAL;
+
+SELECT ABS(8.29) AS abs_positive FROM DUAL;
+
+SELECT ABS(-3.14) AS abs_negative FROM DUAL;
+
+SELECT ABS(-42) AS abs_column FROM DUAL;
+
+SELECT SYSDATE AS current_date FROM DUAL;
+
+SELECT TO_CHAR(SYSDATE, 'DD-MON-YYYY HH24:MI:SS') AS formatted_date FROM DUAL;
+
+SELECT SYSTIMESTAMP AS system_timestamp FROM DUAL;
+
+SELECT LEAST('apple', 'banana', 'cherry') AS least_string FROM DUAL;
+
+SELECT GREATEST('apple', 'banana', 'cherry') AS greatest_string FROM DUAL;
+
+SELECT LTRIM('   Trim me') AS trimmed_leading FROM DUAL;
+
+SELECT RTRIM('I love India                ') AS trimmed_trailing FROM DUAL;
+
+SELECT RPAD('John', 15, 'X') AS right_padded_name FROM DUAL;
+
+SELECT RPAD(TO_CHAR(123), 6, '0') AS right_padded_number FROM DUAL;
+
+SELECT REVERSE('uoyevol I') AS reversed_string FROM DUAL;
+
+SELECT REVERSE('racecar') AS reversed_palindrome FROM DUAL;
+
+SELECT LENGTH('Oracle Database') AS string_length FROM DUAL;
+
+SELECT CONCAT(CONCAT(CONCAT(CONCAT('Oracle', 'SQL'), 'is'), 'powerful'), 'flexible') AS concatenated_string FROM DUAL;
+
+SELECT CONCAT('Merin', 'Daniel') AS full_name FROM DUAL;
+
+SELECT SUBSTR('India is my country', 7, 2) AS substring_is FROM DUAL;
+
+SELECT SUBSTR('Merin', 3, 3) AS substring_middle FROM DUAL;
+
+SELECT SUBSTR('Substring', 1, 3) AS substring_first_three FROM DUAL;
